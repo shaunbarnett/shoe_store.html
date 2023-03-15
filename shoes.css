@@ -1,0 +1,64 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: lightgray;
+    font-family: san-serif;
+}
+
+.container{
+    grid-gap: 60px;
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+    margin: 10px;
+    box-sizing: border-box
+    display: inline-block;
+
+}
+
+.container .box .im{
+    position: relative;
+}
+
+.container .box .im img{
+    max-width: 100%;
+    transition: transform 2s;
+
+}
+
+.container .box:hover .im img{
+    transform: scale(1.2);
+}
+
+.caption {
+    display: block;
+}
+
+.holder{
+    grid-gap: 60px;
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.holder .logo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+    margin: 10px;
+    box-sizing: border-box
+    display: inline-block;
